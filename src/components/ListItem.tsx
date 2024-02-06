@@ -1,3 +1,5 @@
-export default function ListItem(Activity: string){
-    return <div><p>{Activity}</p></div>
+
+
+export default function ListItem(props: { name: string}){
+    return <div><p>{props.name}</p></div>
 }
