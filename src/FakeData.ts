@@ -1,1 +1,1 @@
-export const data = ["do the dishes", "pet the dog", "find a bed"]
+export const initialData = [{name: "do the dishes", completed: false, dateCreated: 1707281848329}, {name: "pet the dog", completed: true, dateCreated: 1707281860462 }, {name: "find a bed", dateCreated: 1707281923493, completed:false}]

@@ -1,8 +1,13 @@
-interface ListItemProps {
+
+export interface ListItemProps {
     name: string
+    completed: boolean
+    onClick: (name: string) => void
+    dateCreated: number
 }
 
-export default function ListItem(props: ListItemProps){
-    const {name} = props;
-    return <p>{name}</p>
+export function ListItem(props: ListItemProps){
+    const {name, completed, onClick} = props;
+
+    return <p className={completed ? "completed": undefined} onClick={() => onClick(name)}>{name}</p>
 }
