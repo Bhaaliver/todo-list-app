@@ -1,9 +1,9 @@
-import ListItem from './components/ListItem'
+import List from './components/List'
 import './App.css'
 
 function App() {
 
-  return <ListItem name={"bob"}/>
+  return <List />
 }
 
 export default App

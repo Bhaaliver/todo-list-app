@@ -1,0 +1,1 @@
+export const data = ["do the dishes", "pet the dog", "find a bed"]

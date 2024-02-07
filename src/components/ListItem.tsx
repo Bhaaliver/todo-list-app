@@ -1,5 +1,8 @@
+interface ListItemProps {
+    name: string
+}
 
-
-export default function ListItem(props: { name: string}){
-    return <div><p>{props.name}</p></div>
+export default function ListItem(props: ListItemProps){
+    const {name} = props;
+    return <p>{name}</p>
 }
