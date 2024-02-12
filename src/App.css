@@ -2,3 +2,11 @@
     text-decoration: line-through;
     font-style: italic;
 }
+.List{
+    margin: auto;
+    text-align: center;
+    border: 3px solid purple;
+    width: 50%;
+    background-color: #610574;
+    border-radius: 15px;
+}
