@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { useLocalStorage } from 'usehooks-ts'
 
 export interface addTodoItemProps {
     addTodoItem: (name: string) => void
