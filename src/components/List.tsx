@@ -14,7 +14,6 @@ export default function List(){
         }
     }
     const addTodoList = (name: string)=>{setitems([...items, {name, completed: false, dateCreated: Date.now()}])}
-    // const 
 
     return <div className="List"><h1>Todo List</h1><TextInput addTodoItem={addTodoList}/>{items.sort((a, b)=> a.dateCreated - b.dateCreated).map((chore)=> <ListItem key={chore.name} {...chore} onClick={toggleActiveState}/>)}</div>
 }
